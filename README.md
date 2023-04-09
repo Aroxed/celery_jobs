@@ -2,12 +2,17 @@
 
 ## Setup
 
+Install: python, redis
+
 The first thing to do is to clone the repository:
 
 ```sh
 $ git clone https://github.com/Aroxed/celery_jobs.git
 $ cd celery_jobs
 ```
+
+Modify settings.py:
+CELERY_BROKER_URL='redis://192.168.0.102:6379', where 192.168.0.102 is the address of redis server
 
 Create a virtual environment to install dependencies in and activate it:
 
