@@ -119,4 +119,4 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CELERY_BROKER_URL='redis://localhost:6379/5'
+CELERY_BROKER_URL='redis://192.168.0.102:6379'
